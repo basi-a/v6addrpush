@@ -1,0 +1,6 @@
+[Unit]
+Description=IPv6 push Service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/pushipv6.sh
